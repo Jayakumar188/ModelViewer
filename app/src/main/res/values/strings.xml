@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Model Viewer</string>
+    <string name="add_model">Add model</string>
+    <string name="cd_interaction_toggle">Toggle rotate/zoom mode</string>
+    <string name="cd_label_toggle">Toggle part labels</string>
+    <string name="cd_close">Remove model</string>
+    <string name="max_models_reached">Loaded models will share the screen \u2014 keep resizing/moving to arrange them</string>
+    <string name="loading_model">Loading %1$s\u2026</string>
+    <string name="load_failed">Couldn\'t load %1$s</string>
+</resources>

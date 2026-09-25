@@ -1,0 +1,13 @@
+<resources>
+    <color name="stage_background">#F2F2F2</color>
+    <color name="container_border">#33000000</color>
+    <color name="container_border_active">#FF4FC3F7</color>
+    <color name="button_bar_bg">#99000000</color>
+    <color name="button_icon">#FFFFFFFF</color>
+    <color name="button_icon_active">#FF4FC3F7</color>
+    <color name="label_text">#FFFFFFFF</color>
+    <color name="label_bg">#CC1A1A1A</color>
+    <color name="label_connector">#FF4FC3F7</color>
+    <color name="fab_bg">#FF4FC3F7</color>
+    <color name="fab_icon">#FF101318</color>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/buttonBar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|end"
+    android:layout_margin="4dp"
+    android:background="@drawable/bg_button_bar"
+    android:orientation="horizontal"
+    android:padding="2dp">
+
+    <ImageButton
+        android:id="@+id/btnInteraction"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/bg_icon_button"
+        android:contentDescription="@string/cd_interaction_toggle"
+        android:padding="6dp"
+        android:src="@drawable/ic_rotate3d"
+        app:tint="@color/button_icon" />
+
+    <ImageButton
+        android:id="@+id/btnLabel"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/bg_icon_button"
+        android:contentDescription="@string/cd_label_toggle"
+        android:padding="6dp"
+        android:src="@drawable/ic_label"
+        app:tint="@color/button_icon" />
+
+    <ImageButton
+        android:id="@+id/btnClose"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/bg_icon_button"
+        android:contentDescription="@string/cd_close"
+        android:padding="6dp"
+        android:src="@drawable/ic_close"
+        app:tint="@color/button_icon" />
+
+</LinearLayout>
